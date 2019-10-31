@@ -13,7 +13,16 @@
   ],
   "plugins": [
     "@babel/plugin-proposal-class-properties",
-    "babel-plugin-styled-components",
+    "transform-inline-environment-variables",
+    [
+      "emotion",
+      {
+        "sourceMap": true,
+        "autoLabel": false,
+        "labelFormat": "[local]",
+        "cssPropOptimization": true,
+      }
+    ],
     [
       "transform-react-remove-prop-types",
       {
@@ -31,7 +40,7 @@
       "presets": ["@babel/preset-env", "@babel/preset-react"],
       "plugins": [
         "@babel/plugin-proposal-class-properties",
-        "babel-plugin-styled-components",
+        "babel-plugin-emotion",
         "@babel/plugin-transform-runtime"
       ]
     }

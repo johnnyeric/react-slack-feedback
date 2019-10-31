@@ -89,42 +89,42 @@ exports[`SlackFeedback should match the snapshots 1`] = `
     }
   }
 >
-  <styles__SlackFeedback
+  <SlackFeedback
     className=""
   >
-    <styles__Container
+    <Container
       className="fadeInUp"
     >
-      <styles__Header>
+      <Header>
         <icon />
          
         Send Feedback
-        <styles__CloseButton
+        <CloseButton
           className="close"
           onClick={[Function]}
         >
           close
-        </styles__CloseButton>
-      </styles__Header>
-      <styles__Content>
+        </CloseButton>
+      </Header>
+      <Content>
         <span
           id="channel"
         >
-          <styles__Label
+          <Label
             htmlFor="channel"
           >
             Channel
-          </styles__Label>
-          <styles__FormElement
+          </Label>
+          <FormElement
             as="input"
             disabled={true}
             value="#tests"
           />
         </span>
-        <styles__Label>
+        <Label>
           Feedback Type
-        </styles__Label>
-        <styles__Tabs>
+        </Label>
+        <Tabs>
           <li
             className="selected"
             key="bug"
@@ -149,49 +149,49 @@ exports[`SlackFeedback should match the snapshots 1`] = `
           >
             Feature
           </li>
-        </styles__Tabs>
-        <styles__Label>
+        </Tabs>
+        <Label>
           Message
-        </styles__Label>
-        <styles__FormElement
+        </Label>
+        <FormElement
           as="textarea"
           name="message"
           onChange={[Function]}
           placeholder="Your message..."
           value=""
         />
-        <styles__ImageUpload>
-          <styles__UploadButton
+        <ImageUpload>
+          <UploadButton
             htmlFor="imageUpload"
           >
             Attach Image
-          </styles__UploadButton>
-          <styles__FormElement
+          </UploadButton>
+          <FormElement
             accept="image/*"
             as="input"
             id="imageUpload"
             onChange={[Function]}
             type="file"
           />
-        </styles__ImageUpload>
-        <styles__SubmitButton
+        </ImageUpload>
+        <SubmitButton
           className=""
           disabled={true}
           onClick={[Function]}
         >
           Send Feedback
-        </styles__SubmitButton>
-      </styles__Content>
-    </styles__Container>
-    <styles__Trigger
+        </SubmitButton>
+      </Content>
+    </Container>
+    <Trigger
       className=""
       onClick={[Function]}
     >
       <icon />
        
       Send Feedback
-    </styles__Trigger>
-  </styles__SlackFeedback>
+    </Trigger>
+  </SlackFeedback>
 </ThemeProvider>
 `;
 
@@ -286,28 +286,28 @@ exports[`SlackFeedback should match the snapshots 3`] = `
     }
   }
 >
-  <styles__SlackFeedback
+  <SlackFeedback
     className=""
   >
-    <styles__Container
+    <Container
       className="fadeInUp"
     >
-      <styles__Header>
+      <Header>
         <icon />
          
         Send Feedback
-        <styles__CloseButton
+        <CloseButton
           className="close"
           onClick={[Function]}
         >
           close
-        </styles__CloseButton>
-      </styles__Header>
-      <styles__Content>
-        <styles__Label>
+        </CloseButton>
+      </Header>
+      <Content>
+        <Label>
           Feedback Type
-        </styles__Label>
-        <styles__Tabs>
+        </Label>
+        <Tabs>
           <li
             className="selected"
             key="bug"
@@ -332,49 +332,49 @@ exports[`SlackFeedback should match the snapshots 3`] = `
           >
             Feature
           </li>
-        </styles__Tabs>
-        <styles__Label>
+        </Tabs>
+        <Label>
           Message
-        </styles__Label>
-        <styles__FormElement
+        </Label>
+        <FormElement
           as="textarea"
           name="message"
           onChange={[Function]}
           placeholder="Your message..."
           value=""
         />
-        <styles__ImageUpload>
-          <styles__UploadButton
+        <ImageUpload>
+          <UploadButton
             htmlFor="imageUpload"
           >
             Attach Image
-          </styles__UploadButton>
-          <styles__FormElement
+          </UploadButton>
+          <FormElement
             accept="image/*"
             as="input"
             id="imageUpload"
             onChange={[Function]}
             type="file"
           />
-        </styles__ImageUpload>
-        <styles__SubmitButton
+        </ImageUpload>
+        <SubmitButton
           className=""
           disabled={true}
           onClick={[Function]}
         >
           Send Feedback
-        </styles__SubmitButton>
-      </styles__Content>
-    </styles__Container>
-    <styles__Trigger
+        </SubmitButton>
+      </Content>
+    </Container>
+    <Trigger
       className=""
       onClick={[Function]}
     >
       <icon />
        
       Send Feedback
-    </styles__Trigger>
-  </styles__SlackFeedback>
+    </Trigger>
+  </SlackFeedback>
 </ThemeProvider>
 `;
 
@@ -467,41 +467,41 @@ exports[`SlackFeedback should match the snapshots 4`] = `
     }
   }
 >
-  <styles__SlackFeedback
+  <SlackFeedback
     className=""
   >
-    <styles__Container
+    <Container
       className="fadeInUp"
     >
-      <styles__Header>
+      <Header>
          
         Send Feedback
-        <styles__CloseButton
+        <CloseButton
           className="close"
           onClick={[Function]}
         >
           close
-        </styles__CloseButton>
-      </styles__Header>
-      <styles__Content>
+        </CloseButton>
+      </Header>
+      <Content>
         <span
           id="channel"
         >
-          <styles__Label
+          <Label
             htmlFor="channel"
           >
             Channel
-          </styles__Label>
-          <styles__FormElement
+          </Label>
+          <FormElement
             as="input"
             disabled={true}
             value="#tests"
           />
         </span>
-        <styles__Label>
+        <Label>
           Feedback Type
-        </styles__Label>
-        <styles__Tabs>
+        </Label>
+        <Tabs>
           <li
             className="selected"
             key="bug"
@@ -526,47 +526,47 @@ exports[`SlackFeedback should match the snapshots 4`] = `
           >
             Feature
           </li>
-        </styles__Tabs>
-        <styles__Label>
+        </Tabs>
+        <Label>
           Message
-        </styles__Label>
-        <styles__FormElement
+        </Label>
+        <FormElement
           as="textarea"
           name="message"
           onChange={[Function]}
           placeholder="Your message..."
           value=""
         />
-        <styles__ImageUpload>
-          <styles__UploadButton
+        <ImageUpload>
+          <UploadButton
             htmlFor="imageUpload"
           >
             Attach Image
-          </styles__UploadButton>
-          <styles__FormElement
+          </UploadButton>
+          <FormElement
             accept="image/*"
             as="input"
             id="imageUpload"
             onChange={[Function]}
             type="file"
           />
-        </styles__ImageUpload>
-        <styles__SubmitButton
+        </ImageUpload>
+        <SubmitButton
           className=""
           disabled={true}
           onClick={[Function]}
         >
           Send Feedback
-        </styles__SubmitButton>
-      </styles__Content>
-    </styles__Container>
-    <styles__Trigger
+        </SubmitButton>
+      </Content>
+    </Container>
+    <Trigger
       className=""
       onClick={[Function]}
     >
        
       Send Feedback
-    </styles__Trigger>
-  </styles__SlackFeedback>
+    </Trigger>
+  </SlackFeedback>
 </ThemeProvider>
 `;

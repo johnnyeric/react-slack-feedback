@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import fetch from 'isomorphic-fetch'
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 
 import SyntaxHighlighter, {
   registerLanguage
@@ -121,7 +121,7 @@ const App = () => {
       <h5>Install module + peer dependencies</h5>
 
       <SyntaxHighlighter language="jsx" style={syntax}>
-        {`yarn add react-slack-feedback styled-components`}
+        {`yarn add react-slack-feedback emotion`}
       </SyntaxHighlighter>
 
       <SyntaxHighlighter language="jsx" style={syntax}>

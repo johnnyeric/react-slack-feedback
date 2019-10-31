@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 const fetch = require('isomorphic-fetch')
 
 const UPLOADS = 'uploads'
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8082
 const VALID_MIMETYPES = ['image/jpg', 'image/jpeg', 'image/png', 'image/gif']
 
 const app = express()

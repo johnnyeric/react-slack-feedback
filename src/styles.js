@@ -1,4 +1,5 @@
-import styled, { keyframes, css } from 'styled-components'
+import { css, keyframes } from '@emotion/core'
+import styled from '@emotion/styled'
 import { get } from './utils'
 
 const theme = (key, fallback = 'inherit') => (props = {}) =>
