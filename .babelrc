@@ -15,10 +15,10 @@
     "@babel/plugin-proposal-class-properties",
     "transform-inline-environment-variables",
     [
-      "emotion",
+      "@emotion",
       {
         "sourceMap": true,
-        "autoLabel": false,
+        "autoLabel": "dev-only",
         "labelFormat": "[local]",
         "cssPropOptimization": true,
       }
@@ -40,7 +40,7 @@
       "presets": ["@babel/preset-env", "@babel/preset-react"],
       "plugins": [
         "@babel/plugin-proposal-class-properties",
-        "babel-plugin-emotion",
+        "@emotion/babel-plugin",
         "@babel/plugin-transform-runtime"
       ]
     }
